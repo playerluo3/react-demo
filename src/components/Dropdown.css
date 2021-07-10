@@ -1,0 +1,29 @@
+.dropdown {
+    position: relative;
+    margin: 100px;
+}
+
+.dropdown-btn {
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-list {
+    display: none;
+}
+
+.dropdown-list.active {
+    display: block;
+}
+
+.dropdown>ul {
+    position: absolute;
+    top: 32px;
+    width: 180px;
+    background-color: #f4f4f4;
+}
